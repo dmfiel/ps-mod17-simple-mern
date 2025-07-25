@@ -1,5 +1,6 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
+const dotenv = require("dotenv");
 
-mongoose.connect('mongodb://localhost/simple-mern');
+mongoose.connect(process.env.DB_URI);
 
 module.exports = mongoose;

@@ -12,6 +12,7 @@
   "author": "James Vickery",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^17.2.1",
     "express": "^4.16.4",
     "mongoose": "^8.16.4",
     "password-generator": "^2.2.0"
